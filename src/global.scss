@@ -1,0 +1,114 @@
+$color-white: #fff;
+$color-black: #000;
+$color-blue: rgb(75, 145, 214);
+$color-lightBlue: rgb(186, 198, 212);
+$color-coldBlue: rgb(19 119 201 / 86%);
+$color-smoke: rgb(230, 230, 230);
+$color-gray: rgb(154, 154, 154);
+$color-lightOrange: rgb(244, 232, 209);
+$color-yellow: rgb(247 190 31);
+$color-lightRed: rgb(222, 33, 33);
+$color-coldRed: rgba(235, 138, 138, 0.845);
+$color-gradient-green: linear-gradient(
+	180deg,
+	rgba(95, 217, 76, 1) 0%,
+	rgba(84, 192, 67, 1) 59%,
+	rgba(78, 180, 62, 1) 88%,
+	rgba(60, 162, 45, 1) 100%
+);
+$color-gradient-yellow: linear-gradient(
+	180deg,
+	rgba(255, 227, 72, 1) 0%,
+	rgba(255, 199, 44, 1) 30%,
+	rgba(255, 199, 44, 1) 60%,
+	rgba(255, 208, 78, 1) 100%
+);
+$color-gradient-gray: linear-gradient(
+	0deg,
+	rgba(209, 212, 209, 1) 0%,
+	rgba(180, 181, 180, 1) 49%,
+	rgba(166, 166, 166, 1) 100%
+);
+
+$fontSize-small: 12px;
+$fontSize-medium: 14px;
+$fontSize-large: 16px;
+$fontSize-extraLarge: 20px;
+
+$space-small: 5px;
+$space-medium: 10px;
+$space-large: 15px;
+$space-extraLarge: 25px;
+
+$fontWeight-light: 400;
+$fontWeight-medium: 600;
+$fontWeight-bold: 700;
+
+$lineHeight-small: 10px;
+$lineHeight-medium: 20px;
+$lineHeight-large: 30px;
+
+$radius-small: 5px;
+$radius-medium: 10px;
+$radius-large: 15px;
+
+$checkbox-width: 25px;
+$checkbox-height: 25px;
+
+.box-wrapper {
+	border: 1px solid $color-gray;
+	-webkit-box-shadow: -5px 4px 9px -2px rgba(13, 13, 13, 0.33);
+	box-shadow: -5px 4px 9px -2px rgba(13, 13, 13, 0.33);
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.truncated {
+	// word-break: break-word;
+	// white-space: no-wrap;
+	// text-overflow: ellipsis;
+	// display: -webkit-box;
+	// -webkit-box-orient: vertical;
+	// overflow: hidden;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+// .truncated-one-line {
+// 	-webkit-line-clamp: 1;
+// }
+// .truncated-two-line {
+// 	-webkit-line-clamp: 2;
+// }
+// .truncated-three-line {
+// 	-webkit-line-clamp: 3;
+// }
+
+.activity-tracker__status {
+	width: 25px;
+	height: 25px;
+}
+
+.activity-tracker__textarea {
+	width: 100%;
+}
+
+.activity-tracker__button {
+	padding: $space-small $space-large;
+	border-radius: $radius-small;
+	font-size: $fontSize-medium;
+	cursor: pointer;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.error-message {
+	color: $color-lightRed;
+	font-size: $fontSize-small;
+	margin-top: $space-medium;
+}

@@ -1,0 +1,21 @@
+const APPLICATION_TITTLE = 'my personal activity tracker';
+const CREATE_NEW_ACTIVITY_TITLE = 'create a new activity';
+const CREATE_NEW_ACTIVITY_BUTTON = 'create a new activity';
+const DELETE_ACTIVITY_BUTTON = 'delete';
+const PLACEHOLDER_TITLE = 'enter your activity title';
+const PLACEHOLDER_DESCRIPTION = 'enter your activity description';
+const CREATE_NEW_ACTIVITY_SUBMIT_BUTTON = 'submit';
+const ERROR_MISSING_TITLE = "Activity's title is required.";
+const DEFAULT_DATE_FORMAT = 'DD-MM-YYYY';
+
+export {
+	APPLICATION_TITTLE,
+	CREATE_NEW_ACTIVITY_TITLE,
+	CREATE_NEW_ACTIVITY_BUTTON,
+	DELETE_ACTIVITY_BUTTON,
+	PLACEHOLDER_TITLE,
+	PLACEHOLDER_DESCRIPTION,
+	CREATE_NEW_ACTIVITY_SUBMIT_BUTTON,
+	ERROR_MISSING_TITLE,
+	DEFAULT_DATE_FORMAT,
+};
