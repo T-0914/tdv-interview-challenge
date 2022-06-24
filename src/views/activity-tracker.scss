@@ -60,6 +60,9 @@
 					}
 					.activity-tracker__read-more {
 						font-size: $fontSize-small;
+						background-color: transparent;
+						border: none;
+						padding: unset;
 					}
 
 					.activity-tracker__status {
